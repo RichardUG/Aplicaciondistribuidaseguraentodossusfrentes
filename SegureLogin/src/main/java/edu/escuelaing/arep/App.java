@@ -37,7 +37,9 @@ public class App {
             return "";
         });
         get("/successful", (req,res) ->{
+            System.out.println("https://"+((req.url().split("/")[2]).split(":")[0])+":4568/hello");
             String resp = URLReader.readURL("https://"+((req.url().split("/")[2]).split(":")[0])+":4568/hello");
+            System.out.println(resp);
             return resp;
         });
     }
