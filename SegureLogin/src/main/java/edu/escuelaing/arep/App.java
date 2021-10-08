@@ -1,6 +1,7 @@
 package edu.escuelaing.arep;
 import com.google.common.hash.Hashing;
 import com.google.gson.Gson;
+import org.json.JSONObject;
 
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
@@ -21,6 +22,12 @@ public class App {
         get("/hello", (req, res) -> "Hello World");
         get("/", (req,res) -> {
             res.redirect("login.html");
+
+            return "";
+        });
+        get("/loged", (req,res) -> {
+            System.out.println("sssss");
+            res.redirect("loged.html");
             return "";
         });
         post("/login", (req,res) -> {
@@ -37,10 +44,11 @@ public class App {
             return "";
         });
         get("/successful", (req,res) ->{
-            System.out.println("https://"+((req.url().split("/")[2]).split(":")[0])+":4568/hello");
-            String resp = URLReader.readURL("https://"+((req.url().split("/")[2]).split(":")[0])+":4568/hello");
+            System.out.println("https://"+((req.url().split("/")[2]).split(":")[0])+":4568/consumir");
+            String resp = URLReader.readURL("https://"+((req.url().split("/")[2]).split(":")[0])+":4568/consumir");
             System.out.println(resp);
-            return resp;
+            JSONObject jsonObject = new JSONObject(resp);
+            return jsonObject;
         });
     }
     static int getPort() {

@@ -5,8 +5,10 @@ var api = (function () {
     function otherService() {
         console.log("llega");
         axios.get(url+"/successful").then(res=>{
-            console.log(url+"/successful")
-            $("#information").text(res.data);
+            console.log(url+"/successful");
+            console.log(res.data);
+            document.getElementById("mensaje").innerHTML =res.data.Mensaje;
+            document.getElementById("fecha").innerHTML =res.data.Date;
         })
     }
     function informacion(){
@@ -16,9 +18,10 @@ var api = (function () {
         console.log("url");
         console.log(url);
         var user={userName:document.getElementById("userName").value,password:document.getElementById("password").value}
-        axios.post(url+"/login",user).then(api.otherService);
+        axios.post(url+"/login",user).then(res =>{
+            window.location.href="loged.html";
+        })
     }
-
     return {
         login:login,
         otherService:otherService,
