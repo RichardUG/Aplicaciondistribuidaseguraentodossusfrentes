@@ -308,7 +308,7 @@ Password: 123
 
 Podemos abrir este enlace y descargarlo
 
-[Descargar cideo en github](Video explicacion amazon AWS/https://github.com/RichardUG/Aplicaciondistribuidaseguraentodossusfrentes/raw/master/Video%20explicacion%20amazon%20AWS/Explicaci%C3%B3n%20despliegue%20AWS.mp4)
+[Descargar cideo en github](https://github.com/RichardUG/Aplicaciondistribuidaseguraentodossusfrentes/raw/master/Video%20explicacion%20amazon%20AWS/Explicaci%C3%B3n%20despliegue%20AWS.mp4)
 
 [Ver en recordings](https://pruebacorreoescuelaingeduco.sharepoint.com/sites/yo871/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fyo871%2FShared%20Documents%2FGeneral%2FRecordings%2FReuni%C3%B3n%20en%20%5FGeneral%5F%2D20211007%5F234611%2DGrabaci%C3%B3n%20de%20la%20reuni%C3%B3n%2Emp4&parent=%2Fsites%2Fyo871%2FShared%20Documents%2FGeneral%2FRecordings&p=true&originalPath=aHR0cHM6Ly9wcnVlYmFjb3JyZW9lc2N1ZWxhaW5nZWR1Y28uc2hhcmVwb2ludC5jb20vOnY6L3MveW84NzEvRWFwUmRndDBWX2xLa2FBUTlucU1WTzRCVHdPaWJLcWFvWURZdVBRTGo1TUpaZz9ydGltZT1KR1VxZEw2SzJVZw)
 
